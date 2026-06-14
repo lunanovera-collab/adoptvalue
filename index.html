@@ -2,17 +2,143 @@
 <html>
 <head>
 <title>AdoptValue</title>
+
 <style>
 body{
-font-family:Arial;
-background:#e8f7ff;
-text-align:center;
-padding:20px;
+font-family:Arial, sans-serif;
+margin:0;
+background: linear-gradient(135deg, #ffd6e7, #d6f3ff);
+color:#000;
 }
-h1{color:#00aaff;}
+
+/* NAV BAR */
+.navbar{
+background:white;
+display:flex;
+justify-content:center;
+gap:40px;
+padding:15px;
+box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+position:sticky;
+top:0;
+}
+
+.navbar a{
+text-decoration:none;
+color:#000;
+font-weight:bold;
+}
+
+.navbar a:hover{
+color:#ff4fa3;
+}
+
+/* SECTIONS */
+section{
+padding:40px;
+text-align:center;
+}
+
+/* TITLE */
+h1{
+color:#000;
+}
+
+/* TABLE */
 table{
 margin:auto;
 background:white;
 border-collapse:collapse;
 width:80%;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0px 4px 15px rgba(0,0,0,0.1);
 }
+
+th{
+background:#ff4fa3;
+color:white;
+padding:12px;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #eee;
+}
+
+tr:hover{
+background:#f8fbff;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAV BAR -->
+<div class="navbar">
+<a href="#values">📊 Values</a>
+<a href="#calculator">🧮 Calculator</a>
+<a href="#trading">🐾 Trading Centre</a>
+</div>
+
+<!-- VALUES -->
+<section id="values">
+<h1>🐾 AdoptValue - Pet Values 🌷</h1>
+
+<table>
+<tr>
+<th>Pet</th>
+<th>Value</th>
+</tr>
+
+<!-- LEGENDARIES -->
+<tr><td>Shadow Dragon</td><td>250 🌷</td></tr>
+<tr><td>Bat Dragon</td><td>230 🌷</td></tr>
+<tr><td>Giraffe</td><td>200 🌷</td></tr>
+<tr><td>Frost Dragon</td><td>120 🌷</td></tr>
+<tr><td>Owl</td><td>85 🌷</td></tr>
+<tr><td>Parrot</td><td>80 🌷</td></tr>
+<tr><td>Arctic Reindeer</td><td>55 🌷</td></tr>
+<tr><td>Evil Unicorn</td><td>110 🌷</td></tr>
+<tr><td>Crow</td><td>60 🌷</td></tr>
+<tr><td>Turtle</td><td>35 🌷</td></tr>
+<tr><td>Kangaroo</td><td>30 🌷</td></tr>
+
+<!-- ULTRA RARES -->
+<tr><td>Ninja Monkey</td><td>18 🌷</td></tr>
+<tr><td>Queen Bee</td><td>16 🌷</td></tr>
+<tr><td>Flamingo</td><td>11 🌷</td></tr>
+<tr><td>Hedgehog</td><td>10 🌷</td></tr>
+<tr><td>Dalmatian</td><td>9 🌷</td></tr>
+<tr><td>Crocodile</td><td>8 🌷</td></tr>
+
+<!-- RARES -->
+<tr><td>Brown Bear</td><td>6 🌷</td></tr>
+<tr><td>Polar Bear</td><td>6 🌷</td></tr>
+<tr><td>Hyena</td><td>5 🌷</td></tr>
+<tr><td>Rhino</td><td>5 🌷</td></tr>
+
+<!-- COMMON / UNCOMMON -->
+<tr><td>Capybara</td><td>3 🌷</td></tr>
+<tr><td>Chicken</td><td>2 🌷</td></tr>
+<tr><td>Dog</td><td>1 🌷</td></tr>
+<tr><td>Cat</td><td>1 🌷</td></tr>
+
+</table>
+</section>
+
+<!-- CALCULATOR -->
+<section id="calculator">
+<h1>🧮 Calculator</h1>
+<p>Coming soon — Trade calculator will be added here.</p>
+</section>
+
+<!-- TRADING CENTRE -->
+<section id="trading">
+<h1>🐾 Trading Centre</h1>
+<p>Coming soon — Fair/WIN/LOSE trade checker.</p>
+</section>
+
+</body>
+</html>
